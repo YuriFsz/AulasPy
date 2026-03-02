@@ -6,4 +6,4 @@ desconto = float(input('Digite o valor do desconto: R$ '))
 
 precodescontado = preco * desconto/100
 
-print('O valor do produto é R${}Reais \nO valor do desconto é de {}% \nApós o desconto o valor vai ser de: R${:.2f}Reais'.format(preco, desconto, preco - precodescontado))
+print('O valor do produto é R${}Reais \nO valor do desconto é de {}% \nApós o desconto o valor vai ser de: R${:.2f}Reais'.format(preco, desconto, preco - precodescontado)) 
